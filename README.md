@@ -1,4 +1,5 @@
-# Vue-Todolist
+# Vue-Todolist ![build](https://github.com/Trevdevs/vue-todolist/actions/workflows/main.yml/badge.svg)
+
 Todolist list SPA created with Vue and setup with Docker
 
 This project was my first time using Vue and Docker I learned a lot from basic Vue structure, two way data binding, form submissions. 
