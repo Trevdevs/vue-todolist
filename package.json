@@ -1,0 +1,25 @@
+{
+  "name": "trevdevs-vue-todolist",
+  "version": "1.0.0",
+  "description": "A todo list SPA created with Vue and setup with Docker",
+  "main": "index.js",
+  "author": "Trevdevs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Trevdevs/vue-todolist.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "start": "serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "serve": "^12.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "vue": "^3.0.0"
+  }
+}
