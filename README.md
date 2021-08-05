@@ -18,4 +18,12 @@ docker build . -t="todolist"   // Builds a docker image with the tag set to todo
 docker run todolist            // Create and run a docker container of the todolist image
 ```
 ### From Docker
-TODO haven't pushed the docker image to the cloud yet
+Ensure docker is installed
+```
+docker version
+```
+Pull my docker image from Docker Hub
+```
+docker pull trevdevs/vue-todolist
+docker run trevdevs/vue-todolist
+```
